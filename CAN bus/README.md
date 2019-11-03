@@ -1,4 +1,4 @@
-Task for 'Redes de comunicação automotivas'
+# Task for 'Redes de comunicação automotivas'
 
 KitCAN - 16F / LabTools - Mosaico Didactic Division / 'Manual Kit CAN-16F rev2.pdf'
 
@@ -13,4 +13,4 @@ The last video I transferred the same code to 3 independent modules where I set 
 can address = 0x0220 | (Value from DIPswitch & 0x0F) . The 'E' directive is used for LCD of Mosaico  kit.
 https://youtu.be/UmrB_xfkr3w
 
-'CAN T2 Ricardo de Freitas.pdf' has calculations for CAN bus setup.
+**'CAN T2 Ricardo de Freitas.pdf' has the calculations for CAN bus setup.**
