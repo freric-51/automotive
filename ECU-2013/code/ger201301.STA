@@ -1,0 +1,102 @@
+
+ROM used:   14786 (45%)
+            14786 (45%) including unused fragments
+
+            5 Average locations per line
+            24 Average locations per statement
+
+RAM used:   857 (42%) at main() level
+            898 (44%) worst case
+
+Stack used: 7/31 worst case (4 in main + 3 for interrupts)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+    0     0   0  ger201301.c
+   92    50   8  _PIP.c
+   52     0   0  _fuses.h
+  464     0   0  ..\..\..\..\Program Files\PICC\Devices\18F4550.h
+  269     0   0  regs_18F4550.h
+  142     0   0  _pinagem_ecu.h
+  195     0   0  _MemoryMap.h
+    8     0   0  _ANA.h
+  122     0   0  _matriz.h
+   22     0   0  _LCD.h
+   10     0   0  _BaseTempo.h
+  118    37   6  _ANA.c
+  101    42   7  _BaseTempo.c
+   19     1   0  _BotaoDisplay.c
+    5     0   0  _BotaoDisplay.h
+  157    91  15  _estrategia.c
+   10     0   0  _estrategia.h
+   72    29   5  _funcoes_gerais.c
+   21     4   1  _pinagem_ecu.c
+  133    45   7  _lcd.c
+  423   125  20  ..\..\..\..\Program Files\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\Program Files\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\Program Files\PICC\Drivers\ctype.h
+  548   190  31  main.c
+    5     0   0  _PIP.h
+    9     0   0  _funcoes_gerais.h
+----- -----
+ 3057   614 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0     38   0   1             @delay_us1
+0    374   1   2  1737  8.8  Trata_int_RB0
+0     34   0   5             @MUL1616
+0     70   0   5             @DIV1616
+0     20   0   0    47  1.5  AD_LeituraFinalizada
+0     36   0   1    59  1.2  AD_Start
+0    244   1   1  1421  8.3  AD_Next_Port_Choice
+0     96   0   2   447  5.2  Trata_Timer0
+0    140   0   2   644  8.1  Trata_Timer1
+0     18   0   0    76  2.0  Trata_Timer2
+0      8   0   0    25  1.9  Trata_int_RB1
+0    118   0   0  1375  4.9  Calcular_Estrategia
+0    172   1   4   348  6.1  Calcular_Avanco_IGN
+0    144   0   2  1324  4.4  Calcular_Injecao
+0     72   0   3   258  4.6  Calcular_Aceleracao
+0     44   0   3             @DIV88
+0    354   1  11   781  7.0  LongFix_to_ASCII
+0     18   0   0   117  2.2  init_Pinagens
+0     60   0   5   129  4.6  strlen
+0      8   0   0    57  1.9  LCD_tris
+0     12   0   3    76  2.4  LCD_escreve_word
+0     54   0   1   231  2.3  LCD_pulso_comando
+0    194   1   2   508  1.4  LCD_inicializacao
+0    106   0   5   289  6.8  LCD_mensagem
+0  10584  36  20  2456 10.1  MAIN
+0    184   1   0  1535  2.9  InitHW
+0      6   0   0    16  1.0  InitSystem
+0     14   0   0    32  1.0  Reset_Prog
+0    848   3  21  3079  8.6  Atualiza_Display
+0     34   0   0             @goto10198
+0     32   0   1             @SPRINTF
+0    190   1   9             @PRINTF_LU_314
+0    188   1   6             @PRINTF_D0_314
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               25
+    Statements              614
+    Comments                257
+    Volume (V)              27368
+    Difficulty (D)          111.2
+    Effort to implement (E) 3043779
+    Time to implement (T)   46 hours, 58 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   80
+    Maintainability (MI)    34
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000E8   226  0  
+000EA-07FFE  14556  17978  
+
+
+
