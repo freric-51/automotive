@@ -1,5 +1,6 @@
 # automotive
 Some projects carried out during the course of automotive electronics at FATEC Santo Andre
 
-- CAN bus  
+- CAN bus
+- Coil Tester
 - ECU
